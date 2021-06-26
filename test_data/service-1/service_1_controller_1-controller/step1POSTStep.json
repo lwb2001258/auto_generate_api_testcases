@@ -1,0 +1,45 @@
+{
+  "qa":
+    [
+      {
+        "request":{
+            "body": {
+                "abv":"string"
+              },
+              "x-gray-env":"string",
+              "x-trace-id":"string",
+              "x-user-id":"string"
+        },
+        "response":{
+          "code": "string",
+          "data": [],
+          "errorData": {},
+          "params": [],
+          "status": "string",
+          "subData": {},
+          "type": "string",
+          "returnStatus": 200
+        }
+      },
+      {
+        "request":{
+            "body": {
+                "abc":"${param1}"
+              },
+              "x-gray-env":"string",
+              "x-trace-id":"string",
+              "x-user-id":"string"
+        },
+        "response":{
+          "code": "string",
+          "data": [],
+          "errorData": {},
+          "params": [],
+          "status": "string",
+          "subData": {},
+          "type": "string",
+          "returnStatus": 200
+        }
+      }
+    ]
+}
